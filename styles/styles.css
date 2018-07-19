@@ -1,0 +1,76 @@
+body {
+  	margin:0px;
+  	padding: 0px;
+  	}
+
+
+
+
+.intro {
+	text-transform: none;
+	display: flex;
+	align-items: center;
+	background-image: url(../obrazky/BBteam.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.nadpis {
+	text-align: center;
+	color: white;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 9vw;
+	letter-spacing: 0.2px;
+	word-spacing: 2px;
+	font-weight: 700;
+	line-height: 0.9;
+	text-decoration: none solid rgb(68, 68, 68);
+	font-style: normal;
+	font-variant: normal;
+	width: 100%;
+}
+
+
+.nadpis span {
+	color: rgb(21, 170, 214);
+}
+
+.intro {
+	min-height: 100vh;
+}
+
+.rounded-link {
+	border: 2px solid rgb(21, 170, 214);
+	width: 40px;
+	height: 40px;
+	display: flex;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 40px;
+	left: 50%;
+	align-items: center;
+	justify-content: center;
+	transform: rotate(45deg);
+	background: rgba(152, 158, 162, 0.2);
+	transition: all 0.3s ease;
+}
+
+.rounded-link span {
+	width: 10px;
+	height: 10px;
+	display: block;
+	border: 2px solid red;
+	border-left: none;
+	border-top: none;
+	transition: all 0.3s ease;
+}
+
+.rounded-link:hover span {
+	transform: rotate(45deg) scale(1.3);
+}
+
+.rounded-link:hover {
+	background: rgba(152, 158, 162, 0.6);
+   	transform: translate(0, 10%);
+}
+
